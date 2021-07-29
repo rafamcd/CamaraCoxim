@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Humans';
+    src: url('../../fontes/Humans.eot');
+    src: url('../../fontes/Humans.eot?#iefix') format('embedded-opentype'),
+         url('../../fontes/Humans.woff') format('woff'),
+         url('../../fontes/Humans.ttf') format('truetype'),
+         url('../../fontes/Humans.svg#Humans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+#pagina .mediaBox {
+	margin:0;
+
+}
+
+#loopedSlider {
+	float:left;
+	width:640px;
+	height:300px;
+	padding:0;
+	margin:0;
+}
+#loopedSlider .containerMaster {
+	float:left;
+	width:640px;
+	height:300px;
+	padding:0;
+	margin:0 0 0 0;
+}
+#loopedSlider .containerMaster .container {
+	float:left;
+	position:relative;
+	width:640px;
+	height:300px;
+	overflow:hidden;
+	margin:0;
+}
+#loopedSlider .containerMaster .container .slides {
+	position: absolute;
+}
+#loopedSlider .containerMaster .container .slides div.item {
+	width: 640px;
+	height:295px;
+	display: none;
+}
+#loopedSlider .containerMaster .container .slides div.item img {
+	width: 640px;
+	height:295px;
+}
+#loopedSlider .containerMaster .container .slides div.item .texto {
+	position:absolute;
+	bottom:0px;
+	width:625px;
+	height:60px;
+	background: rgb(0, 0, 0) transparent;
+     background: rgba(0, 0, 0, 0.7);
+/* Para navegadores IE 5.5 - 7 */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#000000, endColorstr=#000000);
+/* Para navegadores IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#000000, endColorstr=#000000)";
+	margin:0 0 0 0;
+	padding:5px 0px;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	text-align:left;
+	font-family: "Humans", sans-serif; font-size:16px;
+}
+
+#loopedSlider .containerMaster .container .slides div.item .texto{
+	opacity:1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);
+	color: #FC0;
+	font-weight:bold;
+	padding-left:15px;
+		
+	
+}
+
+#loopedSlider .containerMaster .container .slides div.item .subtexto{
+	opacity:1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);
+	color: #FFF;
+	font-weight:normal;
+	
+}
+
+
+#loopedSlider a.previous {
+	position:relative;
+	top:115px;
+	left:0px;
+	width:36px;
+	height:63px;
+	background-image:url(/media/images/template2/btn-destaque-prev.png);
+	text-indent:-9999px;
+	z-index:100;
+	display:block;
+
+	z-index:1;
+	
+}
+#loopedSlider a.next {	
+	position:relative;
+	top:-207px;
+	left:0px;
+	width:36px;
+	height:63px;
+	background:url(/media/images/template2/btn-destaque-next.png) no-repeat;
+	text-indent:-9999px;
+	z-index:100;
+	display:block;
+	
+}

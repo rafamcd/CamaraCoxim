@@ -1,0 +1,58 @@
+/* ######### CSS for Shade Tabs. Remove if not using ######### */
+#abas{width:275px; margin-bottom: 1em; padding:10px; height:300px; overflow:hidden}
+.shadetabs{
+padding: 3px 0;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 0; 
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold;
+list-style-type: none;
+text-align: left; /*set to left, center, or right to align the menu as desired*/
+}
+
+.shadetabs li{
+display: inline;
+margin: 0;
+}
+
+.shadetabs li a{
+text-decoration: none;
+position: relative;
+z-index: 1;
+padding: 3px 6px;
+margin-right: 2px;
+color:#9113f2;
+
+}
+
+.shadetabs li a:visited{
+
+}
+
+.shadetabs li a:hover{
+}
+
+.shadetabs li a.selected{ /*selected main tab style */
+position: relative;
+top: 1px;
+
+}
+
+.shadetabs li a.selected{ /*selected main tab style */
+background-color:#9113f2;
+color: #ffffff;
+}
+
+.shadetabs li a.selected:hover{ /*selected main tab style */
+text-decoration: none;
+}
+
+#abas li{
+	list-style:none;
+	border-bottom:1px  dotted #333;
+	padding-bottom:8px;
+	padding-top:6px;
+	width:270px;
+	
+	
+}

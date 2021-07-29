@@ -1,0 +1,7 @@
+//caso eu tenha utilizado a estrutura pré-pronta que eu fiz do painel
+//já vem com usuário administrador:
+
+usuario: rafamcd@inteco.com.br
+senha: 1234
+
+//Somente esse usuário pode criar novos usuários, pois ele é administrador (na tabela de users, tem um campo admin = 1)
